@@ -389,7 +389,7 @@ endpoints:
     - name: 'OpenRouter'
       # For `apiKey` and `baseURL`, you can use environment variables that you define.
       # recommended environment variables:
-      apiKey: '${OPENROUTER_API_KEY}'
+      apiKey: '${OPENROUTER_KEY}'
       baseURL: 'https://openrouter.ai/api/v1'
       models:
         default: ['anthropic/claude-sonnet-4.5', 'anthropic/claude-opus-4.5', 'anthropic/claude-opus-4.6']
