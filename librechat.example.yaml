@@ -105,10 +105,10 @@ interface:
   # MCP Servers configuration example
   mcpServers:
     # Controls user permissions for MCP (Model Context Protocol) server management
-    - use: true
-    - create: true
-    - share: true 
-    # - public: Allow users to share MCP servers publicly (with everyone)
+    use: true
+    create: true
+    share: true 
+    # public: Allow users to share MCP servers publicly (with everyone)
      
     # Creation / edit MCP server config Dialog config example
     # trustCheckbox:
